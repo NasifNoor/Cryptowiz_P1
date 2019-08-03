@@ -1,0 +1,207 @@
+body{
+    text-align: center;
+    font-family:sans-serif;
+    color: rgb(239, 239, 239);
+}
+.padd{
+    padding: 15px;
+}
+#bg{
+    margin: auto;
+    height: 1500px;
+    width: 100%;
+    background: linear-gradient(rgb(29, 25, 24), rgb(39, 39, 39));
+    box-shadow: 0px 90px 10px rgb(18, 16, 17) inset;
+}
+#head{
+    height: 80px;
+    width: 100%;
+    background: rgb(24, 24, 24);
+    
+}
+
+.lg{
+    width:10%;
+    height: 80px;
+    float: left;
+}
+.title{
+    width: 80%;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 45px;
+    font-weight: bold;
+    float: left;
+}
+
+.container {
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(239, 239, 239);
+    margin: 8px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-12.5px, -4px);
+}
+
+.change .bar2 {
+    transform: rotate(45deg) translate(-12px, 3.5px);
+}
+
+.one{
+    margin: 0 auto;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    background: rgb(36, 34, 35);
+    margin-top: 80px;
+    
+    text-align: center;
+    font-family:sans-serif;
+    color: rgb(239, 239, 239);
+}
+.two{
+    margin: 0 auto;
+    height: 80px;
+    width: 98%;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(5, 117, 229), rgb(2, 27, 120));
+    margin-top: 50px;
+    text-align: center;
+    font-family:sans-serif;
+    color: rgb(239, 239, 239);
+}
+.two:hover{
+    background: linear-gradient(to left, rgb(5, 117, 229), rgb(2, 27, 120));
+    box-shadow: 0px 10px 10px rgb(18, 16, 17);
+    
+}
+.new{
+    width: 80px;
+    height: 30px;
+    padding-top: 25px;
+    background: rgb(24, 24, 24);
+    color: rgb(239, 32, 12);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%);
+    margin-top: -25px;
+    margin-right: 20px;
+    opacity: 0.7;
+    font-weight: bold;
+    font-size: 16px;
+    float: right;
+}
+.new2{
+    width: 80px;
+    height: 30px;
+    padding-top: 25px;
+    background: rgb(24, 24, 24);
+    color: rgb(239, 32, 12);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%);
+    margin-top: -25px;
+    opacity: 0;
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+}
+
+
+.three{
+    margin: 0 auto;
+    height: 80px;
+    width: 98%;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(87, 171, 47), rgb(168, 224, 99));
+    margin-top: 50px;
+    text-align: center;
+    font-family:sans-serif;
+    color: rgb(239, 239, 239);
+}
+.three:hover{
+    background: linear-gradient(to left, rgb(87, 171, 47), rgb(168, 224, 99));
+    box-shadow: 0px 10px 10px rgb(18, 16, 17);
+}
+.four{
+    margin: 0 auto;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    background: rgb(36, 34, 35);
+    margin-top: 150px;
+}
+
+.five{
+    margin: 0 auto;
+    height: 80px;
+    width: 98%;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(255, 81, 47), rgb(240, 152, 26));
+    margin-top: 50px;
+    text-align: center;
+    font-family:sans-serif;
+    color: rgb(239, 239, 239);
+}
+.five:hover{
+    background: linear-gradient(to left, rgb(255, 81, 47), rgb(240, 152, 26));
+    box-shadow: 0px 10px 10px rgb(18, 16, 17);
+}
+.six{
+    margin: 0 auto;
+    height: 80px;
+    width: 98%;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(204, 43, 93), rgb(116, 58, 135));
+    margin-top: 50px;
+    text-align: center;
+    font-family:sans-serif;
+    color: rgb(239, 239, 239);
+}
+.six:hover{
+    background: linear-gradient(to left, rgb(204, 43, 93), rgb(116, 58, 135));
+    box-shadow: 0px 10px 10px rgb(18, 16, 17);
+}
+.seven{
+    margin: 0 auto;
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-size: 50px;
+    background: rgb(128, 128, 128);
+    margin-top: -40px;
+    text-align: center;
+    font-family:sans-serif;
+    color: rgb(239, 239, 239);
+    opacity: 0;
+}
+.seven:hover{
+    opacity: 1;
+}
